@@ -32,7 +32,7 @@ INSERT INTO VMSCMS.CMS_INCOMM_version
 
 
 -------------------------------------------
-------CSR Mandatory for all Release--------
+------CSR Mandatory for all Release---------
 -------------------------------------------
 
 delete from vmscms.CMS_INCOMM_VERSION
