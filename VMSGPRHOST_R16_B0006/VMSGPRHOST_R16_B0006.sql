@@ -27,6 +27,7 @@ set pages 1000;
 set serveroutput on
 
 
+
 PROMPT			 	START OF RELEASE VMSGPRHOST_R16_B0006
  
 
