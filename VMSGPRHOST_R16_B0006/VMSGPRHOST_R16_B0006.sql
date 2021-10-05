@@ -19,8 +19,6 @@ SPOOL $VMS_HOME/MAY_VMSGPRHOST_R16_RELEASE/LOG/VMSGPRHOST_R16_B0006_Scripts.log;
 
 	--- PREREQUISITE FOR THIS BUILD : This script is to be executed on a environment where VMSGPRHOST_R16_B0005 is available
 
-
-
 set define off;
 set lines 1000;
 set pages 1000; 
