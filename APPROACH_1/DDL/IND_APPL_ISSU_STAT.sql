@@ -1,0 +1,1 @@
+create index VMSCMS.IND_APPL_ISSU_STAT on VMSCMS.cms_appl_pan_inv(cap_issue_stat);

@@ -1,0 +1,22 @@
+CREATE TABLE VMSCMS.CMS_MERINV_ORDR_TEMP
+(
+  CMO_INST_CODE        NUMBER(10)               NOT NULL,
+  CMO_MERPRODCAT_ID    NUMBER(10)               NOT NULL,
+  CMO_LOCATION_ID      NUMBER(15)               NOT NULL,
+  CMO_NOCARDS_ORDR     NUMBER(10)               NOT NULL,
+  CMO_AUTHORIZE_FLAG   CHAR(1 BYTE)             NOT NULL,
+  CMO_AUTHORIZE_DATE   DATE                     NOT NULL,
+  CMO_AUTHORIZE_USER   NUMBER(10)               NOT NULL,
+  CMO_PROCESS_FLAG     CHAR(1 BYTE)             NOT NULL,
+  CMO_REJECT_REASON    VARCHAR2(200 BYTE),
+  CMO_PROCESS_DATE     DATE                     NOT NULL,
+  CMO_PROCESS_USER     NUMBER(10)               NOT NULL,
+  CMO_LUPD_DATE        DATE                     NOT NULL,
+  CMO_LUPD_USER        NUMBER(10)               NOT NULL,
+  CMO_INS_DATE         DATE                     NOT NULL,
+  CMO_INS_USER         NUMBER(10)               NOT NULL,
+  CMO_ORDR_REFRNO      VARCHAR2(11 BYTE),
+  CMO_SUCCESS_RECORDS  NUMBER(10)               NOT NULL,
+  CMO_ERROR_RECORDS    NUMBER(10)               NOT NULL,
+  CMO_RAISE_FLAG       CHAR(1 BYTE)             NOT NULL
+);

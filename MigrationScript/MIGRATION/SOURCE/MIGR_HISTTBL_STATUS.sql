@@ -1,0 +1,1 @@
+create table VMSCMS.migr_histtbl_status  (mhs_error_msg varchar2(200));
