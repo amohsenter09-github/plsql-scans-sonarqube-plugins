@@ -1,0 +1,7 @@
+organization=amohsenter09-github-01
+projectKey=amohsenter09-github_plsql-scans-sonarqube-plugins
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.23630
+dashboardUrl=https://sonarcloud.io/dashboard?id=amohsenter09-github_plsql-scans-sonarqube-plugins
+ceTaskId=AXxPxpGLsmRyimx498jF
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXxPxpGLsmRyimx498jF
